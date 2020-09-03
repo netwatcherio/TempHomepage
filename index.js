@@ -10,7 +10,7 @@ async function handleRequest(request) {
     const path = new URL(request.url).pathname.substr(1)
 
     if (path === "favicon.ico") {
-        let response = await fetch("https://mcprot.com/images/favicon.ico");
+        let response = await fetch("https://i.imgur.com/2phLpkU.png");
         return new Response(response.body, {
             status: response.status,
             statusText: response.statusText,
